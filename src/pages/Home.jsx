@@ -17,7 +17,7 @@ const Home = () => {
       setPosts(data);
     }
     catch(error) {
-      console.log("Error aagya ji");
+      console.log("Error occured");
       setPosts([]);
     }
     setLoading(false);
